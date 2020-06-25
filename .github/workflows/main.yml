@@ -24,9 +24,14 @@ jobs:
         npm test
       env:
         CI: true
-    - name: Deploy
+    - name: Install SSH Client 🔑
+      uses: webfactory/ssh-agent@v0.2.0
+      with:
+        ssh-private-key: ${{ secrets.KEY }}
+
+    - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      with:
+        SSH: true
         BRANCH: gh-pages
-        FOLDER: ./dist
+        FOLDER: dist
