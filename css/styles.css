@@ -10048,7 +10048,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10072,7 +10072,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-bottom: 7.5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -10087,6 +10087,30 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+.video-wrapper {
+  width: 100%;
+  display: inherit;
+}
+
+#video_background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0%;
+  z-index: 1000;
+  overflow: hidden;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.overly-video {
+  position: absolute;
+  background: inherit;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
