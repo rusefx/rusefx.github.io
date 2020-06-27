@@ -79,11 +79,18 @@
       "at-rule-no-unknown": [
         true,
         {
-          "ignoreAtRules": ["extends","include"]
+          "ignoreAtRules": [
+            "extends",
+            "include"
+          ]
         }
       ],
       "block-no-empty": null,
-      "unit-whitelist": ["em", "rem", "s"]
+      "unit-whitelist": [
+        "em",
+        "rem",
+        "s"
+      ]
     }
   }
 }
