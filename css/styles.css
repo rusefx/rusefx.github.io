@@ -10198,6 +10198,15 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+#services .row .col-md-4:hover .fa-stack {
+  color: #ff4433 !important;
+  transition: 0.9s;
+  transform: rotate(180deg);
+}
+#services .row .col-md-4 .fa-stack {
+  transition: all 0.5s ease-in-out;
+}
+
 .timeline {
   position: relative;
   padding: 0;
