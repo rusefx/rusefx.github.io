@@ -1,0 +1,11 @@
+#services {
+    .row {
+        .col-md-4:hover .fa-stack {
+            color: #ff4433 !important;
+            transition: 0.9s;
+            transform: rotate(180deg);
+        }
+        .col-md-4 .fa-stack{
+        transition: all .5s ease-in-out;}
+    }
+}
