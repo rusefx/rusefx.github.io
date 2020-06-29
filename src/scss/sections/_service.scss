@@ -1,7 +1,15 @@
 #services {
+	background: #090A0A;
+	color: #fff;
+	font-family: "futura";
+	letter-spacing: 1px;
+	h2{
+		font-weight: 300;
+		letter-spacing: 3px;
+	}
     .row {
         .col-md-4:hover .fa-stack {
-            color: #ff4433 !important;
+            color: #fff !important;
             transition: 0.9s;
             transform: rotate(180deg);
         }
