@@ -1,4 +1,14 @@
 // Styling for the timeline section
+#processflow{
+    background: #090A0A;
+    color: #fff;
+    font-family: $font-family-base;
+    letter-spacing: 1px;
+    h2, h4{
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+}
 .timeline {
     position: relative;
     padding: 0;

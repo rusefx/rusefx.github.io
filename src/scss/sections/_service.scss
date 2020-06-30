@@ -1,9 +1,9 @@
 #services {
 	background: #090A0A;
 	color: #fff;
-	font-family: "futura";
+	font-family: $font-family-base;
 	letter-spacing: 1px;
-	h2{
+	h2, h4{
 		font-weight: 300;
 		letter-spacing: 3px;
 	}
