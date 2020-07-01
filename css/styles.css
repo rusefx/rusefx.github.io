@@ -10114,6 +10114,18 @@ header.masthead .masthead-heading {
   z-index: 1000;
 }
 
+#fx-loader {
+  background-image: url("../assets/img/rotate-pulsating-loading-animation.gif");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: 1500;
+}
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
