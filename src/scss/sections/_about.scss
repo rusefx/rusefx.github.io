@@ -9,3 +9,20 @@
 		letter-spacing: 3px;
 	}
 }
+
+.testimonial{
+	.person{
+	margin: 0px 24px;
+	border: 8px solid yellow;
+	height: 300px;	
+	}
+	img{
+		height: 64px;
+		width: 64px;
+		text-align: left;
+		position: absolute;
+		margin: 234px 110px;
+		border: 8px solid #0E1117;
+		border-radius: 16px;
+	}
+}
